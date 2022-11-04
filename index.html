@@ -74,24 +74,36 @@
     </header>
     <!-- Header part end-->
 
-    <!--::banner part start::-->
-    <section class="banner_part">
-        <div class="container">
-            <div class="row align-items-center justify-content-end">
-                <div class="col-lg-5">
-                    <div class="banner_text text-center">
-                        <div class="banner_text_iner">
-                            <h5>Moderne Fotographie</h5>
-                            <h1>Fame <span>Pictures</span></h1>
-                            <p>Lebe für den Moment</p>
-                            <a href="services.html" class="btn_1">Unsere Projekte</a>
-                        </div>
-                    </div>
+    <section class="carousel">
+        <div class="carousel">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner" >
+                  <div class="carousel-item active" data-interval="4000">
+                    <img class="first-item" src="img/banner_bg.png" alt="First slide" >
+                  </div>
+                  <div class="carousel-item" data-interval="4000">
+                    <img class="second-item" src="img/banner_bg.png" alt="Second slide">
+                  </div>
+                  <div class="carousel-item" data-interval="4000">
+                    <img class="third-item" src="img/banner_bg.png" alt="Third slide">
+                  </div>
                 </div>
-            </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>    
         </div>
     </section>
-    <!--::banner part start::-->
 
     <!--::about_us part start::-->
     <section class="about_us padding_top">
