@@ -6137,11 +6137,25 @@ display: flex;
   justify-content: center;
   
 }
-.carousel {width: 2500; height: 2500; margin:auto;}
+.carousel { 
+display: flex;
+width: 2500;
+height: 2500;
+margin:auto;
+}
 
-.first-item {max-width: 100%; height: auto}
-.second-item {max-width: 100%; height: auto}
-.third-item {max-width: 100%; height: auto}
+.first-item {
+  max-width: 100%;
+  height: auto
+}
+.second-item {
+  max-width: 100%;
+  height: auto
+}
+.third-item {
+  max-width: 100%;
+  height: auto
+}
 /* line 2, ../../01 cl html template/187 Shotgear Photography/187 Shotgear Photography Html/sass/_footer.scss */
 .footer-area {
   background-color: #1e2528;
