@@ -680,6 +680,7 @@ ul {
   transition: 0.5s;
   text-transform: uppercase;
   border: 2px solid #182028;
+  margin-bottom: 5pt;
 }
 
 /* line 76, ../../01 cl html template/187 Shotgear Photography/187 Shotgear Photography Html/sass/_button.scss */
@@ -687,6 +688,7 @@ ul {
   color: #fff !important;
   background-color: #ff4800;
   border: 2px solid #ff4800;
+  
 }
 
 @media (max-width: 576px) {
