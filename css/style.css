@@ -704,6 +704,7 @@ ul {
   transition: 0.5s;
   text-transform: uppercase;
   border: 2px solid #182028;
+  margin-bottom: 5pt;
 }
 .btn_2:hover {
   color: #fff !important;
