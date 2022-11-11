@@ -70,6 +70,10 @@ input:hover, input:focus, .form-control:focus {
     padding-top: 100px !important;
   }
 }
+.information {
+  display: flex;
+  margin-bottom: 50pt;
+}
 
 .padding_top {
   padding-top: 140px;
