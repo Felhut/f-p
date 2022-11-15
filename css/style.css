@@ -629,6 +629,18 @@ ul {
   }
 }
 /**************** common css end ****************/
+/****css felix muss in sass umgewandelt werde****/
+.carousel{
+  display: flex;
+  justify-content: center;
+}
+.footer{
+  display: flex;
+  justify-content: center;
+}
+.text-areas{
+  margin-bottom: 50pt;
+}
 /* Main Button Area css
 ============================================================================================ */
 .submit_btn {
