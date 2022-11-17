@@ -629,18 +629,6 @@ ul {
   }
 }
 /**************** common css end ****************/
-/****css felix muss in sass umgewandelt werde****/
-.carousel{
-  display: flex;
-  justify-content: center;
-}
-.footer{
-  display: flex;
-  justify-content: center;
-}
-.text-areas{
-  margin-bottom: 50pt;
-}
 /* Main Button Area css
 ============================================================================================ */
 .submit_btn {
@@ -1264,7 +1252,7 @@ ul {
   width: 100%;
 }
 .our_service .single_offer_text {
-  background-color: #fcf7f7;
+  background-color: #f5edff;
   height: 100% !important;
 }
 .our_service .single_offer_text span {
