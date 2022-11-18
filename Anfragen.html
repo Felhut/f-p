@@ -89,25 +89,15 @@
         <div class="anfragen-img">
             <img src="img/gallery/gallery_item_6.png" alt="BIld-test">
         </div>
-
+<table class="anfragen-formular">
         <form action="mailto:felix.hoerlezeder@tfs-haslach.at">
-            <div class="anfragen-formular">
-                <p><input type="text" name="vorname" id="vorname" placeholder="Vorname"></p>
-            </div>
-            <div class="anfragen-formular">
-                <p><input type="text" name="nachname" id="nachname" placeholder="Nachname"></p>
-            </div>
-            <div class="anfragen-formular">
-                <p><input type="email" name="email" id="email" placeholder="E-Mail"></p>
-            </div>
-            <div class="anfragen-formular">
-                <p><input type="tel" name="telNr" id="telNr" placeholder="Telefonnummer"></p>
-            </div>
-            <div class="anfragen-formular">
-                <p>Bitte wählen sie einen passenden Rückruf Zeitpunkt: </p>
-            </div>
-            <div class="anfragen-formular">
-                <p><label for="ruekruf1">Morgens: </label>
+            
+                <tr><td><p><input type="text" name="vorname" id="vorname" placeholder="Vorname"></p></td></tr>
+                <tr><td><p><input type="text" name="nachname" id="nachname" placeholder="Nachname"></p></td></tr>
+                <tr><td><p><input type="email" name="email" id="email" placeholder="E-Mail"></p></td></tr>
+                <tr><td><p><input type="tel" name="telNr" id="telNr" placeholder="Telefonnummer"></p></td></tr>
+                <tr><td class="tabelle-auswahl"><p>Passender Rückruf Zeitpunkt: </p></td></tr>
+               <tr><td class="tabelle-auswahl"><p><label for="ruekruf1">Morgens: </label>
                     <input type="radio" name="ruekruf" id="ruekruf1" value="Morgens">
                 </p>
                 <p><label for="ruekruf2"> Vormittags : </label>
@@ -118,11 +108,9 @@
                 </p>
                 <p><label for="ruekruf4"> Abends: </label>
                     <input type="radio" name="ruekruf" id="ruekruf4" value="Abends">
-                </p>
-            </div>
-            <div class="anfragen-formular">
-                <button type="submit" class="button-contactForm btn_2">Absenden </button>
-            </div>
+                </p></td></tr>
+                <tr><td><button type="submit" class="button-contactForm btn_2">Anfrage senden</button></td></tr>
+            </table>
         </form>
     </section>
 
