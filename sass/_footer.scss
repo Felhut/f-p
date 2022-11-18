@@ -1,6 +1,7 @@
 //--------- start footer Area -------------//
 .footer-area {
-	bottom:0;
+	display: flex;
+	justify-content: last baseline;
 	background-color: #1e2528;
 	padding: 140px 0px 0px;
 	@media #{$tab}{
