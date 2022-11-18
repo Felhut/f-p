@@ -1,5 +1,6 @@
 //--------- start footer Area -------------//
 .footer-area {
+	bottom:0;
 	background-color: #1e2528;
 	padding: 140px 0px 0px;
 	@media #{$tab}{
@@ -8,6 +9,7 @@
     @media #{$medium_device}{
 		padding: 100px 0 0;
     }
+	
 	.col-lg-12{
 		padding-left: 0px;
 		padding-right: 0px;
