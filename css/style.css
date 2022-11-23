@@ -1442,7 +1442,6 @@ ul {
 
 .footer-area {
   display: flex;
-  justify-content: last baseline;
   background-color: #1e2528;
   padding: 140px 0px 0px;
 }
@@ -3045,7 +3044,6 @@ h6 {
 
 .footer-area {
   display: flex;
-  justify-content: last baseline;
   background-color: #1e2528;
   padding: 140px 0px 0px;
 }
