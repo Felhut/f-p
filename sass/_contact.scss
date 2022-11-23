@@ -121,14 +121,38 @@
 .anfragen-formular{
   display: flex;
   justify-content: center;
+  margin: auto;
+  
 }
 .tabelle-auswahl {
 	border: solid 5pt;
 	border-radius: 12px;
 	padding: 5px;
 	border-color: #b397f9;
+  background-color: #2a2a2a;
 }
-
+.label-lila{
+  color: #b397f9;
+}
+.p-lila{
+  color: #2a2a2a;
+  font-size: 14pt;
+  font-weight: bolder;
+}
+.text-feld {
+  display: flex;
+  margin: auto;
+	border: solid 5pt;
+	border-radius: 12px;
+	padding: 5px;
+	border-color: #b397f9;
+  color: #b397f9;
+  background-color: #2a2a2a;
+}
+::placeholder{
+  color: #b397f9;
+}
+/*=================== contact form on anfragen page end ===================*/
 /* Contact Success and error Area css
 ============================================================================================ */
 

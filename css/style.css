@@ -693,12 +693,15 @@ ul {
 }
 
 .btn_2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 5pt;
+  margin-bottom: 50pt;
   display: inline-block;
-  padding: 12px 44px;
+  padding: 12px 60px;
   border-radius: 50px;
   background-color: #182028;
   font-size: 15px;
-  font-family: "Oswald", sans-serif;
   font-weight: 500;
   color: #999999;
   transition: 0.5s;
@@ -1766,6 +1769,11 @@ ul {
   .footer_menu ul li a {
     padding: 0px 15px;
   }
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
 }
 
 .sample-text-area {
@@ -2918,6 +2926,7 @@ h6 {
 .anfragen-formular {
   display: flex;
   justify-content: center;
+  margin: auto;
 }
 
 .tabelle-auswahl {
@@ -2925,8 +2934,43 @@ h6 {
   border-radius: 12px;
   padding: 5px;
   border-color: #b397f9;
+  background-color: #2a2a2a;
 }
 
+.label-lila {
+  color: #b397f9;
+}
+
+.p-lila {
+  color: #2a2a2a;
+  font-size: 14pt;
+  font-weight: bolder;
+}
+
+.text-feld {
+  display: flex;
+  margin: auto;
+  border: solid 5pt;
+  border-radius: 12px;
+  padding: 5px;
+  border-color: #b397f9;
+  color: #b397f9;
+  background-color: #2a2a2a;
+}
+
+::-moz-placeholder {
+  color: #b397f9;
+}
+
+:-ms-input-placeholder {
+  color: #b397f9;
+}
+
+::placeholder {
+  color: #b397f9;
+}
+
+/*=================== contact form on anfragen page end ===================*/
 /* Contact Success and error Area css
 ============================================================================================ */
 .modal-message .modal-dialog {
@@ -3368,4 +3412,9 @@ h6 {
   .footer_menu ul li a {
     padding: 0px 15px;
   }
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
 }/*# sourceMappingURL=style.css.map */

@@ -62,12 +62,16 @@
 
 }
 .btn_2{
+	display: flex;
+	justify-content: center;
+	margin-top: 5pt;
+	margin-bottom: 50pt;
 	display: inline-block;
-	padding: 12px 44px;
+	padding: 12px 60px;
 	border-radius: 50px;
 	background-color: $heading_color;
 	font-size: 15px;
-	font-family: $font_stack_2;
+	
 	font-weight: 500;
 	color: $font_9;
 	@include transform_time(0.5s);
