@@ -113,6 +113,21 @@
   }
 }
 /*=================== contact form end ====================*/
+/*=================== contact form on anfragen page start ===================*/
+.anfragen-img{
+  display: flex;
+  justify-content: center;
+}
+.anfragen-formular{
+  display: flex;
+  justify-content: center;
+}
+.tabelle-auswahl {
+	border: solid 5pt;
+	border-radius: 12px;
+	padding: 5px;
+	border-color: #b397f9;
+}
 
 /* Contact Success and error Area css
 ============================================================================================ */
