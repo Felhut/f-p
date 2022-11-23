@@ -1441,8 +1441,7 @@ ul {
 }
 
 .footer-area {
-  position: absolute;
-  bottom: 0;
+  display: flex;
   background-color: #1e2528;
   padding: 140px 0px 0px;
 }
@@ -3026,8 +3025,7 @@ h6 {
 }
 
 .footer-area {
-  position: absolute;
-  bottom: 0;
+  display: flex;
   background-color: #1e2528;
   padding: 140px 0px 0px;
 }
