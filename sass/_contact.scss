@@ -114,6 +114,13 @@
 }
 /*=================== contact form end ====================*/
 /*=================== contact form on anfragen page start ===================*/
+.anfragen-ue{
+  margin-top: 15pt;
+  margin-bottom: 10pt;
+}
+#anfragen-color{
+  background-color: #f0e9ff;
+}
 .anfragen-img{
   display: flex;
   justify-content: center;
@@ -122,10 +129,9 @@
   display: flex;
   justify-content: center;
   margin: auto;
-  
 }
 .tabelle-auswahl {
-	border: solid 5pt;
+  border: solid 5pt;
 	border-radius: 12px;
 	padding: 5px;
 	border-color: #b397f9;

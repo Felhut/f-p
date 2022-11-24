@@ -2918,6 +2918,15 @@ h6 {
 }
 /*=================== contact form end ====================*/
 /*=================== contact form on anfragen page start ===================*/
+.anfragen-ue {
+  margin-top: 15pt;
+  margin-bottom: 10pt;
+}
+
+#anfragen-color {
+  background-color: #f0e9ff;
+}
+
 .anfragen-img {
   display: flex;
   justify-content: center;
