@@ -2937,6 +2937,15 @@ h6 {
   justify-content: center;
   margin: auto;
 }
+.anfragen-formular tbody tr {
+  width: 100%;
+}
+.anfragen-formular tbody td {
+  width: 35rem;
+}
+.anfragen-formular tbody .input-100 {
+  width: 100%;
+}
 
 .tabelle-auswahl {
   border: solid 5pt;
@@ -2946,8 +2955,9 @@ h6 {
   background-color: #2a2a2a;
 }
 
-.label-lila {
+.label-text {
   color: #b397f9;
+  font-size: 15pt;
 }
 
 .p-lila {
