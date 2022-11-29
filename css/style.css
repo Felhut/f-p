@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /**************** extend css start ****************/
 @import url("https://fonts.googleapis.com/css?family=Oswald:400,500,600,700|Roboto:400,500,700&display=swap");
 /**************** extend css start ****************/
@@ -2917,14 +2918,14 @@ h6 {
   }
 }
 /*=================== contact form end ====================*/
-/*=================== contact form on anfragen page start ===================*/
+/*=================== contact form on anfragen page start vorübergehend ===================*/
 .anfragen-ue {
   margin-top: 15pt;
   margin-bottom: 10pt;
 }
 
 #anfragen-color {
-  background-color: #f0e9ff;
+  background-color: #9f9fa2;
 }
 
 .anfragen-img {
@@ -2962,7 +2963,7 @@ h6 {
 
 .p-lila {
   color: #2a2a2a;
-  font-size: 14pt;
+  font-size: 17pt;
   font-weight: bolder;
 }
 
@@ -2979,14 +2980,17 @@ h6 {
 
 ::-moz-placeholder {
   color: #b397f9;
+  font-size: 15pt;
 }
 
 :-ms-input-placeholder {
   color: #b397f9;
+  font-size: 15pt;
 }
 
 ::placeholder {
   color: #b397f9;
+  font-size: 15pt;
 }
 
 /*=================== contact form on anfragen page end ===================*/

@@ -113,7 +113,7 @@
   }
 }
 /*=================== contact form end ====================*/
-/*=================== contact form on anfragen page start ===================*/
+/*=================== contact form on anfragen page start vorübergehend ===================*/
 
 
 .anfragen-ue{
@@ -121,7 +121,7 @@
   margin-bottom: 10pt;
 }
 #anfragen-color{
-  background-color: #f0e9ff;
+  background-color: #9f9fa2;
 }
 .anfragen-img{
   display: flex;
@@ -157,7 +157,7 @@
 
 .p-lila{
   color: #2a2a2a;
-  font-size: 14pt;
+  font-size: 17pt;
   font-weight: bolder;
 }
 .text-feld {
@@ -172,6 +172,7 @@
 }
 ::placeholder{
   color: #b397f9;
+  font-size: 15pt;
 }
 /*=================== contact form on anfragen page end ===================*/
 /* Contact Success and error Area css
