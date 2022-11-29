@@ -2865,7 +2865,7 @@ h6 {
   margin-bottom: 30px;
 }
 .form-contact .form-control {
-  border: 1px solid #f0e9ff;
+  border: 3px solid #b397f9;
   border-radius: 5px;
   height: 48px;
   padding-left: 18px;
@@ -2878,15 +2878,15 @@ h6 {
 }
 .form-contact .form-control::-moz-placeholder {
   font-weight: 300;
-  color: #999999;
+  color: #b397f9;
 }
 .form-contact .form-control:-ms-input-placeholder {
   font-weight: 300;
-  color: #999999;
+  color: #b397f9;
 }
 .form-contact .form-control::placeholder {
   font-weight: 300;
-  color: #999999;
+  color: #b397f9;
 }
 .form-contact textarea {
   border-radius: 12px;
