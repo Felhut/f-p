@@ -1,0 +1,20 @@
+Wichtig
+
+Fotos machen
+Logo machen 
+Logo austauschen
+Fotos austauschen
+Bilder austauschen
+Formulare php abschicken
+Carousel centern
+Über Uns und Projekte / abstand am ende des bodys vergrößern
+Datenschutzerklärung einfügen
+Impressum einfügen
+Projekte Über Uns und Startseite / Inhalt Placement
+Alle Fehler bei Konsole (f12) beheben
+
+Optional
+
+Design überdenken
+Carousel auf größere Bildschirme anpassen
+Kontaktseite Adresse etc. hinzufügen
