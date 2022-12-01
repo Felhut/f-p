@@ -3,7 +3,7 @@ Wichtig
 Fotos machen
 Logo machen 
 Logo austauschen
-Fotos austauschen
+Texte austauschen
 Bilder austauschen
 Formulare php abschicken
 Carousel centern
