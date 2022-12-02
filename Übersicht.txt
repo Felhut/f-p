@@ -1,5 +1,6 @@
 Wichtig
 
+alle unnötigen Dateien entfernen
 Fotos machen
 Logo machen 
 Logo austauschen
