@@ -129,6 +129,12 @@ a:hover {
   text-decoration: none;
 }
 
+.logo-text {
+  font-size: 20pt;
+  color: #182028;
+  font-family: "Oswald", sans-serif;
+}
+
 h1, h2, h3, h4, h5, h6 {
   color: #182028;
   font-family: "Oswald", sans-serif;
