@@ -5,7 +5,7 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>fame-pictures</title>
+  <title>shotgear</title>
   <link rel="icon" href="img/favicon.png">
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -25,10 +25,11 @@
   <link rel="stylesheet" href="css/slick.css">
   <!-- style CSS -->
   <link rel="stylesheet" href="css/style.css">
+  <script src="pw.js"></script>
 </head>
 
 <body>
-  <!--::header part start::-->
+  <!--::header  part start::-->
   <header class="main_menu home_menu">
     <div class="container">
       <div class="row align-items-center">
@@ -54,25 +55,24 @@
                 <li class="nav-item">
                   <a class="nav-link" href="Anfragen.html">Anfragen</a>
                 </li>
+
                 <li class="nav-item">
                   <a class="nav-link" href="kontakt.html">Kontakt</a>
                 </li>
               </ul>
             </div>
-
             <!-- <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <div class="single_product">
-        
-                                        </div>
-                                    </div> -->
-          </nav>
+                                    <div class="single_product">
+    
+                                    </div>
+                                </div> -->
         </div>
+        </nav>
       </div>
+    </div>
     </div>
   </header>
   <!-- Header part end-->
-
-  <!-- breadcrumb start-->
   <section class="carousel">
     <div class="carousel">
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -81,8 +81,8 @@
           <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
         </ol>
-        <div class="carousel-inner" data-interval="4000">
-          <div class="carousel-item active">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-interval="4000">
             <img class="first-item" src="img/banner_bg.png" alt="First slide">
           </div>
           <div class="carousel-item" data-interval="4000">
@@ -91,6 +91,7 @@
           <div class="carousel-item" data-interval="4000">
             <img class="third-item" src="img/banner_bg.png" alt="Third slide">
           </div>
+
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -103,60 +104,80 @@
       </div>
     </div>
   </section>
-
-
-  <!-- ================ contact section start ================= -->
-  <section class="contact-section section_padding">
+  <!--::about_us part start::-->
+  <section class="about_us padding_top">
     <div class="container">
-      <div class="d-none d-sm-block mb-5 pb-4">
-
-
-
-        <div class="row">
-          <div class="col-12">
-            <h2 class="contact-title">Nehmen Sie Kontakt auf!</h2>
-          </div>
-          <div class="col-lg-8">
-            <form class="form-contact contact_form" action="contact_process.php" method="post" id="contactForm"
-              novalidate="novalidate">
-              <div class="row">
-                <div class="col-12">
-                  <div class="form-group">
-
-                    <textarea class="form-control w-100" name="message" id="message" cols="30" rows="9"
-                      onfocus="this.placeholder = ''" onblur="this.placeholder = 'Nachricht eingeben'"
-                      placeholder='Nachricht eingeben'></textarea>
-                  </div>
-                </div>
-                <div class="col-sm-6">
-                  <div class="form-group">
-                    <input class="form-control" name="name" id="name" type="text" onfocus="this.placeholder = ''"
-                      onblur="this.placeholder = 'Namen eingeben'" placeholder='Namen eingeben'>
-                  </div>
-                </div>
-                <div class="col-sm-6">
-                  <div class="form-group">
-                    <input class="form-control" name="email" id="email" type="email" onfocus="this.placeholder = ''"
-                      onblur="this.placeholder = 'E-Mail Adresse eingeben'" placeholder='E-Mail Adresse eingeben'>
-                  </div>
-                </div>
-                <div class="col-12">
-                  <div class="form-group">
-                    <input class="form-control" name="subject" id="subject" type="text" onfocus="this.placeholder = ''"
-                      onblur="this.placeholder = 'Thema eingeben'" placeholder='Thema eingeben'>
-                  </div>
-                </div>
-              </div>
-              <div class="form-group mt-3">
-                <button type="submit" class="button-contactForm btn_2">Nachricht senden </button>
-              </div>
-            </form>
+      <div class="row align-items-center justify-content-center">
+        <div class="col-lg-8">
+          <div class="about_us_text text-center">
+            <h5>About our studio</h5>
+            <h2>The Camera Is An Instrument That Teaches People
+              how to See without a Camera</h2>
+            <p>It’s the end of summer the sweltering heat makes human
+              sweat in the night and makes the plants and trees wilt
+              even in the moonlit nights. The eastern wind breeze brings
+              an eerie feeling, that the monsoon clouds are soon coming,
+              there is a strange silence in the ears, the sky gets darker
+              and darker, the flash of lightning illuminates the dark skies,
+              the sound of thunder fills the heart with fear.</p>
+            <a href="#" class="btn_2">read more</a>
           </div>
         </div>
       </div>
+    </div>
   </section>
-  <!-- ================ contact section end ================= -->
-
+  <!--::about_us part end::-->
+  <!-- gallery_part part start-->
+  <section class="gallery_part section_padding">
+    <div class="container-fluid">
+    </div>
+  </section>
+  <!-- gallery_part part end-->
+  <section class="gallery_part section_padding">
+    <div class="gallery_part_item filtr-container">
+  </section>
+  <!--::our_service part start::-->
+  <section class="our_service padding_bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="section_tittle">
+            <p>our service</p>
+            <h2>what we offer</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row align-items-center filtr-container">
+        <div class="col-lg-4 col-md-6">
+          <div class="single_offer_text text-center wedding">
+            <span class="flaticon-love-and-romance"></span>
+            <h4>wedding photography</h4>
+            <p>World the end of summer the sweltering heat makes human
+              sweat in the night and man plants and trees wilt even</p>
+            <a href="#" class="btn_1">read more</a>
+          </div>
+          <div class="single_offer_img d-none d-md-block">
+            <img src="img/single_offer_img_2.png" alt="">
+          </div>
+        </div>
+        <div class="col-lg-8 col-md-6">
+          <div class="single_offer_img d-none d-md-block">
+            <img src="img/single_offer_img_1.png" alt="">
+          </div>
+          <div class="single_offer_text text-center nature">
+            <span class="flaticon-leaf"></span>
+            <h4>Nature photography</h4>
+            <p>that the monsoon clouds are soon coming, there is a
+              strange silence in the ears, the sky gets darker and
+              darker, the flash of lightning illuminates the dark
+              skies all time needs band the sound of thunder fills the heart with fear.</p>
+            <a href="#" class="btn_1">read more</a>
+          </div>
+        </div>
+    </div>
+    </div>
+  </section>
+  <!--::our_service part end::-->
   <!--::footer_part start::-->
   <footer class="footer-area">
     <div class="container">
@@ -206,7 +227,6 @@
       </div>
   </footer>
   <!--::footer_part end::-->
-
   <!-- jquery plugins here-->
   <script src="js/jquery-1.12.1.min.js"></script>
   <!-- popper js -->
