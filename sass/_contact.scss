@@ -65,6 +65,7 @@
     }
 
     &::placeholder{
+      font-size: 14pt;
       font-weight: 300;
       color: #b397f9;
     }
@@ -113,68 +114,7 @@
   }
 }
 /*=================== contact form end ====================*/
-/*=================== contact form on anfragen page start vorübergehend ===================*/
 
-
-.anfragen-ue{
-  margin-top: 15pt;
-  margin-bottom: 10pt;
-}
-#anfragen-color{
-  background-color: #9f9fa2;
-}
-.anfragen-img{
-  display: flex;
-  justify-content: center;
-}
-.anfragen-formular{
-  display: flex;
-  justify-content: center;
-  margin: auto;
-  tbody{
-    tr{
-      width: 100%;
-    }
-    td{
-      width: 35rem;
-    }
-    .input-100{
-      width: 100%;
-    }
-  }
-}
-.tabelle-auswahl {
-  border: solid 5pt;
-	border-radius: 12px;
-	padding: 5px;
-	border-color: #b397f9;
-  background-color: #2a2a2a;
-}
-.label-text{
-  color: #b397f9;
-  font-size: 15pt;
-}
-
-.p-lila{
-  color: #2a2a2a;
-  font-size: 17pt;
-  font-weight: bolder;
-}
-.text-feld {
-  display: flex;
-  margin: auto;
-	border: solid 5pt;
-	border-radius: 12px;
-	padding: 5px;
-	border-color: #b397f9;
-  color: #b397f9;
-  background-color: #2a2a2a;
-}
-::placeholder{
-  color: #b397f9;
-  font-size: 15pt;
-}
-/*=================== contact form on anfragen page end ===================*/
 /* Contact Success and error Area css
 ============================================================================================ */
 

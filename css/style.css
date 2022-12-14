@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /**************** extend css start ****************/
 @import url("https://fonts.googleapis.com/css?family=Oswald:400,500,600,700|Roboto:400,500,700&display=swap");
 /**************** extend css start ****************/
@@ -968,85 +967,6 @@ ul {
   display: block;
 }
 
-/**************** banner part css start ****************/
-.banner_part {
-  position: relative;
-  background-image: url(../img/banner_bg.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-.banner_part .banner_text {
-  display: table;
-  width: 100%;
-  height: 900px;
-}
-.banner_part .banner_text .banner_text_iner {
-  display: table-cell;
-  vertical-align: middle;
-}
-@media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .banner_part .banner_text .banner_text_iner {
-    height: 650px;
-  }
-}
-.banner_part .banner_text h5 {
-  font-size: 18px;
-  text-transform: uppercase;
-  color: #fff;
-}
-@media (max-width: 991px) {
-  .banner_part .banner_text {
-    height: 650px;
-  }
-}
-@media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .banner_part .banner_text {
-    height: 650px;
-  }
-}
-.banner_part .banner_text h1 {
-  font-size: 60px;
-  text-transform: uppercase;
-  font-weight: 500;
-  margin: 24px 0 29px;
-  line-height: 60px;
-  color: #fff;
-}
-@media (max-width: 991px) {
-  .banner_part .banner_text h1 {
-    font-size: 30px;
-    line-height: 1.3;
-    margin: 10px 0;
-  }
-}
-@media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .banner_part .banner_text h1 {
-    font-size: 40px;
-    margin-bottom: 15px;
-    line-height: 1.4;
-  }
-}
-.banner_part .banner_text h1 span {
-  color: #b397f9;
-}
-.banner_part .banner_text p {
-  margin-bottom: 40px;
-  color: #fff;
-}
-@media (max-width: 991px) {
-  .banner_part .banner_text p {
-    padding-right: 0;
-    margin-bottom: 10px;
-  }
-}
-@media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .banner_part .banner_text p {
-    padding-right: 0;
-  }
-}
-
-/**************** hero part css end ****************/
 /**************** service_part css start ****************/
 .feature_part {
   position: relative;
@@ -2776,6 +2696,11 @@ h6 {
   margin-bottom: 10px;
 }
 
+.carousel {
+  display: flex;
+  justify-content: center;
+}
+
 /**************** copyright part css start ****************/
 .copyright_part {
   background-color: #303030;
@@ -2883,14 +2808,17 @@ h6 {
   box-shadow: none;
 }
 .form-contact .form-control::-moz-placeholder {
+  font-size: 14pt;
   font-weight: 300;
   color: #b397f9;
 }
 .form-contact .form-control:-ms-input-placeholder {
+  font-size: 14pt;
   font-weight: 300;
   color: #b397f9;
 }
 .form-contact .form-control::placeholder {
+  font-size: 14pt;
   font-weight: 300;
   color: #b397f9;
 }
@@ -2924,82 +2852,6 @@ h6 {
   }
 }
 /*=================== contact form end ====================*/
-/*=================== contact form on anfragen page start vorübergehend ===================*/
-.anfragen-ue {
-  margin-top: 15pt;
-  margin-bottom: 10pt;
-}
-
-#anfragen-color {
-  background-color: #9f9fa2;
-}
-
-.anfragen-img {
-  display: flex;
-  justify-content: center;
-}
-
-.anfragen-formular {
-  display: flex;
-  justify-content: center;
-  margin: auto;
-}
-.anfragen-formular tbody tr {
-  width: 100%;
-}
-.anfragen-formular tbody td {
-  width: 35rem;
-}
-.anfragen-formular tbody .input-100 {
-  width: 100%;
-}
-
-.tabelle-auswahl {
-  border: solid 5pt;
-  border-radius: 12px;
-  padding: 5px;
-  border-color: #b397f9;
-  background-color: #2a2a2a;
-}
-
-.label-text {
-  color: #b397f9;
-  font-size: 15pt;
-}
-
-.p-lila {
-  color: #2a2a2a;
-  font-size: 17pt;
-  font-weight: bolder;
-}
-
-.text-feld {
-  display: flex;
-  margin: auto;
-  border: solid 5pt;
-  border-radius: 12px;
-  padding: 5px;
-  border-color: #b397f9;
-  color: #b397f9;
-  background-color: #2a2a2a;
-}
-
-::-moz-placeholder {
-  color: #b397f9;
-  font-size: 15pt;
-}
-
-:-ms-input-placeholder {
-  color: #b397f9;
-  font-size: 15pt;
-}
-
-::placeholder {
-  color: #b397f9;
-  font-size: 15pt;
-}
-
-/*=================== contact form on anfragen page end ===================*/
 /* Contact Success and error Area css
 ============================================================================================ */
 .modal-message .modal-dialog {

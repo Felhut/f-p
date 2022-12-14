@@ -1,0 +1,88 @@
+/*=================== contact form on anfragen page start ===================*/
+
+
+.anfragen-ue{
+    margin-top: 15pt;
+    margin-bottom: 10pt;
+  }
+  
+  .anfragen-img{
+    display: flex;
+    justify-content: center;
+    border-radius:10px 25%;
+  }
+  #bild-abrunden{
+    border-radius: 100px;
+  }
+  #button-r{
+    display: flex;
+   float: right;
+   
+  }
+  .anfragen-formular{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20pt;
+    tbody{
+      tr{
+        width: 100%;
+      }
+      td{
+        width: 35rem;
+      }
+      .input-100{
+        width: 100%;
+      }
+    }
+  }
+  .tabelle-auswahl {
+    border: solid 3pt;
+      border-radius: 12px;
+      padding: 5px;
+      border-color: #b397f9;
+    
+  }
+  .label-text{
+    color: #b397f9;
+    font-size: 15pt;
+  }
+  
+  .p-lila{
+    color: #2a2a2a;
+    font-size: 17pt;
+    font-weight: bolder;
+  }
+  .text-feld {
+    display: flex;
+    margin: auto;
+      border: solid 3pt;
+      border-radius: 12px;
+      padding: 5px;
+      border-color: #b397f9;
+    color: #b397f9;
+  }
+  ::placeholder{
+    color: #b397f9;
+    font-size: 15pt;
+  }
+  /*=================== contact form on anfragen page end ===================*/
+  .carousel { 
+    display: flex;
+    align-items: center;
+    margin:auto;
+    }
+    
+    .first-item {
+      max-width: 100%;
+      align-content: center;
+      height: auto
+    }
+    .second-item {
+      max-width: 100%;
+      height: auto
+    }
+    .third-item {
+      max-width: 100%;
+      height: auto
+    }
