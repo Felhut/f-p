@@ -926,13 +926,17 @@ ul {
     color: #b397f9 !important;
   }
   .navbar-brand img {
-    max-width: 100px;
+    max-width: 70px;
     margin: 0 auto;
-    position: absolute;
+    position: fixed;
     left: 0;
     right: 0;
     display: inline-block;
-    top: 0;
+    top: 2pt;
+  }
+  .logo-text {
+    display: flex;
+    text-align: right;
   }
   .navbar-light .navbar-toggler {
     border-color: transparent;
@@ -2699,6 +2703,7 @@ h6 {
 .carousel {
   display: flex;
   justify-content: center;
+  height: 700px;
 }
 
 /**************** copyright part css start ****************/
