@@ -1251,6 +1251,11 @@ ul {
     margin-bottom: 30px;
   }
 }
+.im-dat-margin {
+  padding-top: 50pt;
+  padding-bottom: 50pt;
+}
+
 @media (max-width: 991px) {
   .catagory_post {
     padding: 0 0 50px;
@@ -2703,7 +2708,7 @@ h6 {
 .carousel {
   display: flex;
   justify-content: center;
-  height: 700px;
+  height: auto;
 }
 
 /**************** copyright part css start ****************/
