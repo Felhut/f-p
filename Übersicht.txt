@@ -1,17 +1,8 @@
 Wichtig
 
 alle unnötigen Dateien entfernen
-Fotos machen
-Logo machen 
-Logo austauschen
-Texte austauschen
-Bilder austauschen
+Bilder austauschen || Über uns und Carousel
 Formulare php abschicken
-Carousel centern
-Über Uns und Projekte / abstand am ende des bodys vergrößern
-Datenschutzerklärung einfügen
-Impressum einfügen
-Projekte Über Uns und Startseite / Inhalt Placement
 Alle Fehler bei Konsole (f12) beheben
 
 Optional
