@@ -3,7 +3,7 @@ Wichtig
 alle unnötigen Dateien entfernen
 Über uns und Carousel
 Formulare php abschicken
-Alle Fehler bei Konsole (f12) beheben
+unnötigen Code löschen
 
 Optional
 
