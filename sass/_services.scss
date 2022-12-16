@@ -3,7 +3,18 @@
     .single_offer_img{
         img{
             width: 100%;
+}
         }
+    }
+    .test{
+        display: flex;
+        float: left;
+        width: 250pt;
+    }
+    .test1{
+        display: flex;
+        float: right;
+        width: 250pt;
     }
     .single_offer_text{
         background-color: #f5edff;
@@ -88,7 +99,7 @@
     @media #{$medium_device}{
     
     }
-}
+
 .im-dat-margin{
     padding-top: 50pt;
     padding-bottom: 50pt;

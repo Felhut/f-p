@@ -1185,69 +1185,83 @@ ul {
 .our_service .single_offer_img img {
   width: 100%;
 }
-.our_service .single_offer_text {
+
+.test {
+  display: flex;
+  float: left;
+  width: 250pt;
+}
+
+.test1 {
+  display: flex;
+  float: right;
+  width: 250pt;
+}
+
+.single_offer_text {
   background-color: #f5edff;
   height: 100% !important;
 }
-.our_service .single_offer_text span {
+.single_offer_text span {
   font-size: 60px !important;
   margin-bottom: 27px;
   display: inline-block;
 }
 @media (max-width: 991px) {
-  .our_service .single_offer_text span {
+  .single_offer_text span {
     margin-bottom: 10px;
   }
 }
-.our_service .single_offer_text h4 {
+.single_offer_text h4 {
   font-size: 22px;
   font-weight: 500;
   text-transform: uppercase;
   margin-bottom: 28px;
 }
 @media (max-width: 991px) {
-  .our_service .single_offer_text h4 {
+  .single_offer_text h4 {
     margin-bottom: 10px;
   }
 }
-.our_service .single_offer_text p {
+.single_offer_text p {
   margin-bottom: 40px;
 }
-.our_service .single_offer_text .btn_1 {
+.single_offer_text .btn_1 {
   color: #182028;
 }
-.our_service .single_offer_text .btn_1:after {
+.single_offer_text .btn_1:after {
   background-color: #182028;
 }
-.our_service .single_offer_text .btn_1:before {
+.single_offer_text .btn_1:before {
   background-color: #182028;
 }
-.our_service .single_offer_text .btn_1:hover:after {
+.single_offer_text .btn_1:hover:after {
   background-color: #b397f9;
 }
-.our_service .single_offer_text .btn_1:hover:before {
+.single_offer_text .btn_1:hover:before {
   background-color: #b397f9;
 }
-.our_service .wedding {
+
+.wedding {
   margin-bottom: 30px;
   padding: 56px 30px 65px;
 }
 @media (max-width: 991px) {
-  .our_service .wedding {
+  .wedding {
     padding: 25px 15px 30px;
   }
 }
-.our_service .nature {
+.nature {
   margin-top: 30px;
   padding: 43px 109px 60px;
 }
 @media (max-width: 991px) {
-  .our_service .nature {
+  .nature {
     padding: 25px 15px 30px;
   }
 }
 @media (max-width: 991px) {
-  .our_service .single_offer_img {
+  .single_offer_img {
     margin-bottom: 30px;
   }
 }
