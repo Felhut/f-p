@@ -1,7 +1,7 @@
 Wichtig
 
 alle unnötigen Dateien entfernen
-Bilder austauschen || Über uns und Carousel
+Über uns und Carousel
 Formulare php abschicken
 Alle Fehler bei Konsole (f12) beheben
 
