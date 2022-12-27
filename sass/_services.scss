@@ -6,31 +6,66 @@
 }
         }
     }
-    @media only screen and (min-width: 830px) {
+    @media only screen and (min-width: 1200px) {
+        .place-inf{
+           padding: 50px, 50px, 50px;
+        }
+}
+    @media only screen and (min-width: 1200px) {
         .text1{
             display: flex;
             float: left;
-            width: 250pt;
+            width: 300pt;
         }
 }
+@media only screen and (min-width: 1200px) {
     .text2{
         display: flex;
         float: right;
-        width: 250pt;
+        width: 450pt;
+        margin-bottom: 91pt;
     }
-    @media only screen and (min-width: 830px) {
+}
+@media only screen and (max-width: 1200px) {
+    .text2{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50pt;
+    }
+}
+    @media only screen and (min-width: 1200px) {
         .img-inf1{
         display: flex;
         float: right;
+        margin-bottom: 25pt;
         width: 600px;
+        height: 450px;
     }
 }
-    @media only screen and (max-width: 830px) {
+    @media only screen and (max-width: 1200px) {
         .img-inf1{
         display: flex;
         justify-content: center;
-        width: auto;
+        width: 700px;
     }
+}
+@media only screen and (min-width: 1200px) {
+    .img-inf2{
+    display: flex;
+    float: left;
+    width: 350px;
+    height: 500px;
+    margin-bottom: 65pt;
+    margin-left: 20pt;
+    margin-right: 50px;
+}
+}
+@media only screen and (max-width: 1200px) {
+    .img-inf2{
+        display: flex;
+        margin-top: 20pt;
+        width: 600pt;
+}
 }
     
     .single_offer_text{
