@@ -1,12 +1,4 @@
 Wichtig
-
-alle unnötigen Dateien entfernen
-Über uns und Carousel
+Carousel
 Formulare php abschicken
 unnötigen Code löschen
-
-Optional
-
-Design überdenken
-Carousel auf größere Bildschirme anpassen
-Kontaktseite Adresse etc. hinzufügen
