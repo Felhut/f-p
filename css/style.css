@@ -134,6 +134,12 @@ a:hover {
   font-family: "Oswald", sans-serif;
 }
 
+@media only screen and (max-width: 372px) {
+  .logo-text {
+    display: flex;
+    font-size: 13pt;
+  }
+}
 h1, h2, h3, h4, h5, h6 {
   color: #182028;
   font-family: "Oswald", sans-serif;

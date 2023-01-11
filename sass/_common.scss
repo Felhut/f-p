@@ -91,6 +91,14 @@ a{
     color: $heading_color;
     font-family: $font_stack_2;
 }
+@media only screen and (max-width: 372px) {
+    .logo-text{
+    display: flex;
+    font-size: 13pt;
+    
+ }
+}
+
 h1, h2, h3, h4, h5, h6,  {
     color: $heading_color;
     font-family: $font_stack_2;
